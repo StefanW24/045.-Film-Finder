@@ -1,0 +1,50 @@
+body {
+    width: auto;
+    background-color: black;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h1 :visited {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 90%;
+    padding-left: 15%;
+}
+
+.navigation {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    padding-left: 100px;
+} 
+
+.navigation label {
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    width: 600px;
+}
+
+.moviesListItem {
+    list-style-type: none;
+    width: 220px;
+    padding: 10px;
+}
+
+#moviesList {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
